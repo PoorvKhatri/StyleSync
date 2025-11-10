@@ -131,7 +131,7 @@ export const ShopPage = () => {
 
                   <div className="flex items-center justify-between">
                     <span className="text-2xl font-bold bg-gradient-to-r from-cyan-400 to-pink-500 bg-clip-text text-transparent">
-                      ₹{Math.round(product.price * 83)}
+                      ₹{Math.round(product.price)}
                     </span>
                     <button
                       onClick={() => addToCart(product)}
